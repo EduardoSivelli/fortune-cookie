@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size:62.5%;
+}
+
+body {
+  background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.hide {
+  display: none;
+}
+
+main{
+  background: #FFFFFF;
+  box-shadow: 0 2.0rem 5.0rem 0 rgba(0, 0, 0, 0.80);
+  border-radius: .6rem;
+
+  width: min(42.8rem, 90%);
+  height: 43.4rem;
+
+  margin-top: -12rem;
+  padding: 4.8rem 6.4rem 6.4rem;
+
+  text-align: center;
+  margin: auto;
+}
+img {
+
+  width: 70%;
+  cursor: pointer;
+  margin-bottom: 2.7rem ;
+  margin-top: 2.7rem;
+  margin-left: -1.9rem;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 1.4rem;
+  color: #34355B;
+  
+}
+p {
+  font-family: 'DM Sans', sans-serif;
+  margin-bottom: 2.6rem;
+  color: #34355B;
+  
+}
+
+button {
+  background: none;
+  border: none;
+  font-family: DM Sans;
+  font-size: 1rem;
+  color: #FFF;
+  font-weight: 700;
+  
+}
+
+/* screen2 */
+
+.message-box {
+  width: min(29.3rem, 95%);
+  height: min(10.7rem, 50%);
+  background: #E4EDF1;
+  box-shadow: .2rem .2rem .2rem 0 rgba(85, 85, 85, 0.50);
+  margin-bottom: 1.7rem; 
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 1.4rem;
+  color: #34355B;
+}
+h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.4rem;
+  padding: 1rem;
+  /* background: #E4EDF1;
+  box-shadow: .2rem .2rem .2rem 0 rgba(85, 85, 85, 0.50); */
+}
+
+.reset{
+  border-radius: .4rem;
+  background: #FF9500;
+  padding: 1.6rem;
+  cursor: pointer;
+}
+
+.reset:hover{
+  background: #E79015;
+}
+
+@media (max-width: 475px) {
+  main {
+    height: 51.5rem;
+  }
+}
